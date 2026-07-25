@@ -143,6 +143,7 @@ export default function VehicleHeroSelector() {
           loop
           muted
           playsInline
+          preload="auto"
           className="absolute inset-0 w-full h-full object-cover pointer-events-none opacity-80 brightness-[1.12] contrast-[1.05] scale-[1.02]"
           src="/videos/vehicle-background.mp4"
         />
