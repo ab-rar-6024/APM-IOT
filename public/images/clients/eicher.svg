@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="400" height="160">
+      <g transform="translate(130, 75)">
+        <path d="M-30,25 C-30,-25 -10,-40 25,-40 C10,-25 15,0 -5,10 C-15,15 -25,20 -30,25 Z" fill="#E31837" />
+        <circle cx="5" cy="-20" r="5" fill="#FFFFFF" />
+      </g>
+      <text x="250" y="90" font-family="'Arial Black', sans-serif" font-weight="900" font-size="42" fill="#4A4A4A" letter-spacing="2" text-anchor="middle">EICHER</text>
+    </svg>

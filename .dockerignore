@@ -1,0 +1,8 @@
+node_modules
+.next
+.git
+.scratch
+*.tsbuildinfo
+npm-debug.log*
+.env*
+zoom1.png

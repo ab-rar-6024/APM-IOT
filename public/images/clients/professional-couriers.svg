@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="400" height="160">
+      <g transform="translate(60, 80)">
+        <polygon points="-20,20 20,0 -20,-20 -5,0" fill="#FF6600" />
+      </g>
+      <text x="220" y="75" font-family="'Arial Black', sans-serif" font-weight="900" font-size="18" fill="#FF6600">THE PROFESSIONAL</text>
+      <text x="220" y="98" font-family="Arial, sans-serif" font-weight="bold" font-size="14" fill="#333333">COURIERS NETWORK LTD</text>
+    </svg>

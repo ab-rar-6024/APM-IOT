@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* scroll-behavior/scroll-snap are intentionally not set here — Lenis
+   (components/SmoothScroll.tsx) drives all scroll easing site-wide, and
+   native CSS scroll-snap fights its momentum, producing stutter instead of
+   the smooth feel it's meant to provide. */
+.landing-snap-section {
+  scroll-margin-top: 5rem; /* clears the sticky h-20 navbar for anchor jumps */
+}
+
+body {
+  background-color: #ffffff;
+  color: #2B2B2E;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Heading underline accent bar */
+.accent-bar {
+  position: relative;
+  padding-top: 1rem;
+}
+
+.accent-bar::before {
+  content: '';
+  width: 90px;
+  height: 3px;
+  background: #2F8FEF;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.accent-bar-center::before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(24px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes whyChooseProgress {
+  0% { transform: scaleX(0); }
+  100% { transform: scaleX(1); }
+}
+
+/* Horizontal scroll-snap row (used for Businesses / Customers carousels) */
+.scroll-row {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 0.5rem;
+}
+
+.scroll-row::-webkit-scrollbar {
+  height: 6px;
+}
+.scroll-row::-webkit-scrollbar-track {
+  background: #F5F7FA;
+}
+.scroll-row::-webkit-scrollbar-thumb {
+  background: #2F8FEF80;
+  border-radius: 3px;
+}
+
+.scroll-row > * {
+  scroll-snap-align: start;
+}
+
+/* Google Translate styling overrides to hide native UI banner and widgets.
+   The banner iframe is matched by `src` (set the instant the element is
+   created) as well as by its `.goog-te-banner-frame` class (added a moment
+   later by Google's own async script) — relying on the class alone leaves a
+   brief window where the un-classed iframe flashes visible at the top of
+   the page while it's loading. */
+iframe.goog-te-banner-frame,
+iframe[src*="translate.google"],
+iframe[src*="translate.googleapis.com"] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+}
+body {
+  top: 0 !important;
+}
+.skiptranslate,
+.goog-te-gadget,
+#goog-gt-tt {
+  display: none !important;
+}
+.goog-text-highlight {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}

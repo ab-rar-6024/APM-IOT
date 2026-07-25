@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="400" height="160">
+      <g transform="translate(200, 65)">
+        <path d="M-20,-5 C-60,-35 -130,-25 -170,-10 C-140,5 -80,10 -30,5 Z" fill="#222" />
+        <path d="M-20,-5 C-60,-25 -120,-15 -155,0 C-130,12 -75,12 -28,8 Z" fill="#444" />
+        <path d="M-20,-5 C-50,-15 -100,-8 -135,10 C-115,20 -65,18 -25,12 Z" fill="#666" />
+        <path d="M20,-5 C60,-35 130,-25 170,-10 C140,5 80,10 30,5 Z" fill="#222" />
+        <path d="M20,-5 C60,-25 120,-15 155,0 C130,12 75,12 28,8 Z" fill="#444" />
+        <path d="M20,-5 C50,-15 100,-8 135,10 C115,20 65,18 25,12 Z" fill="#666" />
+        <ellipse cx="0" cy="0" rx="36" ry="26" fill="#111" stroke="#333" stroke-width="3" />
+        <ellipse cx="0" cy="0" rx="30" ry="21" fill="#fff" />
+        <text x="0" y="9" font-family="'Times New Roman', Georgia, serif" font-weight="900" font-size="28" fill="#111" text-anchor="middle">B</text>
+      </g>
+      <text x="200" y="140" font-family="'Trebuchet MS', Arial, sans-serif" font-weight="900" font-size="22" fill="#111" letter-spacing="8" text-anchor="middle">BENTLEY</text>
+    </svg>

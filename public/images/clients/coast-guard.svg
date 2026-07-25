@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="400" height="160">
+      <g transform="translate(200, 80)">
+        <circle cx="0" cy="0" r="55" fill="#0A2540" />
+        <circle cx="0" cy="0" r="48" fill="none" stroke="#F5A623" stroke-width="4" />
+        <circle cx="0" cy="0" r="34" fill="#0A2540" stroke="#F5A623" stroke-width="2" />
+        <path d="M-8,-15 L0,-30 L8,-15 L22,-15 L12,-3 L16,12 L0,2 L-16,12 L-12,-3 L-22,-15 Z" fill="#F5A623" transform="scale(0.8)" />
+        <text x="0" y="52" font-family="Arial, sans-serif" font-weight="bold" font-size="9" fill="#FFFFFF" text-anchor="middle">INDIAN COAST GUARD</text>
+      </g>
+    </svg>

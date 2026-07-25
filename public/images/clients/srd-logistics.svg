@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="400" height="160">
+      <g transform="translate(80, 80)">
+        <circle cx="0" cy="0" r="25" fill="none" stroke="#FF6600" stroke-width="6" />
+        <path d="M-15,-5 L15,5" stroke="#FF6600" stroke-width="4" />
+      </g>
+      <text x="120" y="85" font-family="'Arial Black', sans-serif" font-weight="900" font-size="36" fill="#FF6600">SRD</text>
+      <text x="120" y="110" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#333333">LOGISTICS PVT. LTD.</text>
+    </svg>

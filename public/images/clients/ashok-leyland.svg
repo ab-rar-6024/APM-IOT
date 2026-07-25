@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="400" height="160">
+      <g transform="translate(200, 55)">
+        <circle cx="0" cy="0" r="32" fill="none" stroke="#00529C" stroke-width="6" />
+        <path d="M-18,-8 L0,18 L18,-8 L8,-8 L0,5 L-8,-8 Z" fill="#00529C" />
+        <path d="M-18,-18 L18,-18 L9,-6 L-9,-6 Z" fill="#00529C" />
+      </g>
+      <text x="200" y="130" font-family="'Arial Black', sans-serif" font-weight="900" font-size="22" fill="#00529C" letter-spacing="3" text-anchor="middle">ASHOK LEYLAND</text>
+    </svg>

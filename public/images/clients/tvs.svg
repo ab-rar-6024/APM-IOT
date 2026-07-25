@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="400" height="160">
+      <g transform="translate(140, 85)">
+        <text x="0" y="0" font-family="'Arial Black', Impact, sans-serif" font-weight="900" font-style="italic" font-size="52" fill="#003399" text-anchor="middle">TVS</text>
+      </g>
+      <g transform="translate(270, 70)">
+        <path d="M-40,10 C-20,-20 10,-30 40,-15 C20,-5 0,-10 -20,5 Z" fill="#E31837" />
+      </g>
+    </svg>

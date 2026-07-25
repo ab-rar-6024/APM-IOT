@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="400" height="160">
+      <g transform="translate(70, 75)">
+        <polygon points="0,-35 30,0 0,35 -30,0" fill="none" stroke="#003399" stroke-width="5" />
+        <text x="0" y="8" font-family="Arial, sans-serif" font-weight="900" font-size="18" fill="#003399" text-anchor="middle">RAMCO</text>
+      </g>
+      <text x="240" y="70" font-family="'Arial Black', sans-serif" font-weight="900" font-size="30" fill="#003399">RAMCO</text>
+      <text x="240" y="95" font-family="'Arial Black', sans-serif" font-weight="900" font-size="14" fill="#E31837">SUPERGRADE</text>
+      <text x="240" y="115" font-family="Arial, sans-serif" font-weight="bold" font-size="10" fill="#666666">Engineered for Concrete</text>
+    </svg>

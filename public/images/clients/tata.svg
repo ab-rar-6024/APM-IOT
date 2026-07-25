@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="400" height="160">
+      <g transform="translate(200, 60)">
+        <path d="M-45,-30 L45,-30 C30,-30 20,-20 15,10 L0,40 L-15,10 C-20,-20 -30,-30 -45,-30 Z" fill="#00529C" />
+        <path d="M-20,-30 L20,-30 L0,20 Z" fill="#ffffff" />
+        <path d="M-6, -30 L6, -30 L0, -5 Z" fill="#00529C" />
+      </g>
+      <text x="200" y="135" font-family="'Arial Black', 'Helvetica Neue', sans-serif" font-weight="900" font-size="34" fill="#00529C" letter-spacing="10" text-anchor="middle">TATA</text>
+    </svg>

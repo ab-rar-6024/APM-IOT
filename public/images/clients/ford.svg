@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="400" height="160">
+      <g transform="translate(200, 80)">
+        <ellipse cx="0" cy="0" rx="110" ry="55" fill="#003468" stroke="#D0D7DE" stroke-width="6" />
+        <ellipse cx="0" cy="0" rx="100" ry="46" fill="none" stroke="#FFFFFF" stroke-width="3" />
+        <text x="0" y="18" font-family="'Brush Script MT', 'Lucida Calligraphy', cursive, serif" font-weight="bold" font-style="italic" font-size="52" fill="#FFFFFF" text-anchor="middle">Ford</text>
+      </g>
+    </svg>
