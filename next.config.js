@@ -3,6 +3,7 @@ const nextConfig = {
   output: "standalone",
   allowedDevOrigins: ["192.168.29.155"],
   images: {
+    qualities: [75, 100],
     remotePatterns: [
       {
         protocol: "https",

@@ -190,6 +190,7 @@ export default function VehicleHeroSelector() {
                       fill
                       sizes="(max-width: 640px) 90vw, 440px"
                       className="object-contain transition-transform duration-500 group-hover:scale-105"
+                      quality={100}
                       priority
                     />
                   </div>

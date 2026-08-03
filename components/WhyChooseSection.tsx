@@ -123,20 +123,22 @@ export default function WhyChooseSection() {
           >
             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden border border-slate-200 shadow-xl">
               <Image
-                src="/images/ourevalution/rectangle-780.png"
+                src="/images/ourevalution/why-partner-engineers.png"
                 alt="APM engineers developing in-house hardware and software"
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"
                 className="object-cover"
+                quality={100}
               />
             </div>
             <div className="hidden sm:block absolute -bottom-8 -right-8 w-36 h-44 md:w-40 md:h-48 rounded-2xl overflow-hidden border-4 border-white shadow-2xl">
               <Image
-                src="/images/ourevalution/rectangle-720.png"
+                src="/images/ourevalution/why-partner-safety-gear.png"
                 alt="APM-certified safety equipment used in manufacturing"
                 fill
                 sizes="200px"
                 className="object-cover"
+                quality={100}
               />
             </div>
           </div>

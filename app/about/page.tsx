@@ -124,10 +124,11 @@ function RoadmapCard({
               src={event.image}
               alt={event.year}
               fill
-              sizes="(max-width: 1024px) 100vw, 400px"
+              sizes="(max-width: 1024px) 100vw, 45vw"
               className={`object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)] ${
                 isVisible ? "scale-100" : "scale-110"
               }`}
+              quality={100}
             />
           </div>
         )}
@@ -165,10 +166,11 @@ function RoadmapCard({
               src={event.image}
               alt={event.year}
               fill
-              sizes="(max-width: 1024px) 100vw, 400px"
+              sizes="(max-width: 1024px) 100vw, 45vw"
               className={`object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)] ${
                 isVisible ? "scale-100" : "scale-110"
               }`}
+              quality={100}
             />
           </div>
         )}
@@ -194,6 +196,7 @@ function RoadmapCard({
             fill
             sizes="100vw"
             className="object-cover"
+            quality={100}
           />
         </div>
       </div>
@@ -330,56 +333,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 2. Green Safety for Sustainability Section */}
-      <section className="py-24 px-6 lg:px-8 bg-white border-t border-slate-100">
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-12 gap-16 items-center">
-          <div className="lg:col-span-7 space-y-6">
-            <h3 className="accent-bar text-3xl font-black text-navy uppercase">
-              Green Safety for Sustainability
-            </h3>
-            <div className="space-y-4 text-slate-500 text-base leading-relaxed font-semibold">
-              <p>
-                APM Group is proud to partner with the Plant a Billion Trees Foundation, a global initiative focused on large-scale reforestation and environmental restoration.
-              </p>
-              <p>
-                Through this meaningful collaboration, we are actively contributing to the preservation and revival of our planet’s forests—critical ecosystems that support biodiversity, regulate climate, and ensure a healthier future for generations to come.
-              </p>
-              <p>
-                This partnership reflects APM’s deep-rooted commitment to sustainability and responsible innovation. As a technology-driven company, we recognize the importance of balancing industrial progress with environmental stewardship.
-              </p>
-            </div>
-
-            <ul className="space-y-3 pt-4">
-              <li className="flex items-center gap-3 text-sm font-bold text-slate-700">
-                <span className="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center text-xs text-emerald-600 font-extrabold">✓</span>
-                <span>Awareness for the green movement.</span>
-              </li>
-              <li className="flex items-center gap-3 text-sm font-bold text-slate-700">
-                <span className="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center text-xs text-emerald-600 font-extrabold">✓</span>
-                <span>Awareness about carbon-neutral emissions.</span>
-              </li>
-              <li className="flex items-center gap-3 text-sm font-bold text-slate-700">
-                <span className="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center text-xs text-emerald-600 font-extrabold">✓</span>
-                <span>For every product sold, we give back to the planet.</span>
-              </li>
-            </ul>
-          </div>
-
-          <div className="lg:col-span-5 flex justify-center">
-            <div className="relative aspect-square w-full max-w-[400px] rounded-3xl overflow-hidden shadow-md">
-              <Image
-                src="/images/greensafety/greensafety.png"
-                alt="Green Safety for Sustainability"
-                fill
-                sizes="(max-width: 1024px) 100vw, 400px"
-                className="object-cover"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 3. Vision & Mission Section */}
+      {/* 2. Vision & Mission Section */}
       <section className="py-24 px-6 lg:px-8 bg-slate-50 relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(#2F8FEF_1px,transparent_1.5px)] bg-[size:24px_24px] opacity-[0.02]" />
 
@@ -424,40 +378,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 4. Core Values Section */}
-      <section className="py-24 px-6 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-8">
-            <div className="text-center p-6 border border-slate-100 rounded-3xl bg-slate-50/50 space-y-3">
-              <span className="text-3xl">💡</span>
-              <h5 className="font-extrabold text-navy text-sm md:text-base">Innovation by Design</h5>
-              <p className="text-xs text-slate-400">Building what is next, before it is expected</p>
-            </div>
-            <div className="text-center p-6 border border-slate-100 rounded-3xl bg-slate-50/50 space-y-3">
-              <span className="text-3xl">🎯</span>
-              <h5 className="font-extrabold text-navy text-sm md:text-base">Precision Execution</h5>
-              <p className="text-xs text-slate-400">Hardware and software engineered to perfection</p>
-            </div>
-            <div className="text-center p-6 border border-slate-100 rounded-3xl bg-slate-50/50 space-y-3">
-              <span className="text-3xl">🤝</span>
-              <h5 className="font-extrabold text-navy text-sm md:text-base">Customer-First</h5>
-              <p className="text-xs text-slate-400">Solutions tailored, support personalized</p>
-            </div>
-            <div className="text-center p-6 border border-slate-100 rounded-3xl bg-slate-50/50 space-y-3">
-              <span className="text-3xl">🛡️</span>
-              <h5 className="font-extrabold text-navy text-sm md:text-base">Rooted in Legacy</h5>
-              <p className="text-xs text-slate-400">Generations of transport industry trust</p>
-            </div>
-            <div className="text-center p-6 border border-slate-100 rounded-3xl bg-slate-50/50 space-y-3">
-              <span className="text-3xl">🚀</span>
-              <h5 className="font-extrabold text-navy text-sm md:text-base">Impact-Driven</h5>
-              <p className="text-xs text-slate-400">Everything we do moves the world forward</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 5. Our Evolution Section (Scroll-Reveal Road Map with Dynamic Blue Progress Line) */}
+      {/* 3. Our Evolution Section (Scroll-Reveal Road Map with Dynamic Blue Progress Line) */}
       <section id="evolution" className="py-24 px-6 lg:px-8 bg-slate-50 relative overflow-hidden">
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center mb-16">
@@ -497,8 +418,58 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 6. Trusted by Clients Across Industries (Right-to-Left Marquee) */}
+      {/* 4. Trusted by Clients Across Industries (Right-to-Left Marquee) */}
       <TrustedClientsSection />
+
+      {/* 5. Green Safety for Sustainability Section */}
+      <section className="py-24 px-6 lg:px-8 bg-white border-t border-slate-100">
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-12 gap-16 items-center">
+          <div className="lg:col-span-7 space-y-6">
+            <h3 className="accent-bar text-3xl font-black text-navy uppercase">
+              Green Safety for Sustainability
+            </h3>
+            <div className="space-y-4 text-slate-500 text-base leading-relaxed font-semibold">
+              <p>
+                APM Group is proud to partner with the Plant a Billion Trees Foundation, a global initiative focused on large-scale reforestation and environmental restoration.
+              </p>
+              <p>
+                Through this meaningful collaboration, we are actively contributing to the preservation and revival of our planet’s forests—critical ecosystems that support biodiversity, regulate climate, and ensure a healthier future for generations to come.
+              </p>
+              <p>
+                This partnership reflects APM’s deep-rooted commitment to sustainability and responsible innovation. As a technology-driven company, we recognize the importance of balancing industrial progress with environmental stewardship.
+              </p>
+            </div>
+
+            <ul className="space-y-3 pt-4">
+              <li className="flex items-center gap-3 text-sm font-bold text-slate-700">
+                <span className="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center text-xs text-emerald-600 font-extrabold">✓</span>
+                <span>Awareness for the green movement.</span>
+              </li>
+              <li className="flex items-center gap-3 text-sm font-bold text-slate-700">
+                <span className="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center text-xs text-emerald-600 font-extrabold">✓</span>
+                <span>Awareness about carbon-neutral emissions.</span>
+              </li>
+              <li className="flex items-center gap-3 text-sm font-bold text-slate-700">
+                <span className="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center text-xs text-emerald-600 font-extrabold">✓</span>
+                <span>For every product sold, we give back to the planet.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div className="lg:col-span-5 flex justify-center">
+            <div className="relative aspect-square w-full max-w-[400px] rounded-3xl overflow-hidden shadow-md">
+              <Image
+                src="/images/greensafety/greensafety.png"
+                alt="Green Safety for Sustainability"
+                fill
+                sizes="(max-width: 1024px) 100vw, 400px"
+                className="object-cover"
+                quality={100}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

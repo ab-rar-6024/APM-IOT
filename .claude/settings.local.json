@@ -125,7 +125,20 @@
       "Bash(powershell -c \"Get-ChildItem D:\\\\IOT-APM\")",
       "Bash(git rev-list *)",
       "Bash(git cat-file *)",
-      "Bash(awk '$1==\"blob\" && $3+0 > 50000000 {print $3, $4}')"
+      "Bash(awk '$1==\"blob\" && $3+0 > 50000000 {print $3, $4}')",
+      "Bash(git reset *)",
+      "Bash(git commit *)",
+      "Bash(awk '$1==\"blob\" && $3+0 > 90000000 {print $3, $4}')",
+      "Bash(git push *)",
+      "Bash(git add *)",
+      "Bash(rm -rf /tmp/npm-test-install)",
+      "Bash(mkdir -p /tmp/npm-test-install)",
+      "Bash(cp package.json package-lock.json .npmrc /tmp/npm-test-install/)",
+      "Bash(xargs grep -l -i \"heavy cargo\")",
+      "Bash(cp \"c:/Users/samoh/Downloads/about us -20260803T053540Z-1-001/about us/bbbf3ecb-6a77-4823-a295-491172997891 \\(1\\).png\" \"D:/IOT-APM/public/images/ourevalution/why-partner-engineers.png\")",
+      "Bash(cp \"c:/Users/samoh/Downloads/about us -20260803T053540Z-1-001/about us/a7b3f1d9-c2e6-41ec-9eff-27f03a8bbb17.png\" \"D:/IOT-APM/public/images/ourevalution/why-partner-safety-gear.png\")",
+      "Bash(tasklist //FI \"PID eq 6216\")",
+      "Bash(wmic process *)"
     ]
   }
 }

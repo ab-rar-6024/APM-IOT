@@ -13,6 +13,15 @@ import { setLenisInstance } from "@/lib/lenis-instance";
  */
 export default function SmoothScroll() {
   useEffect(() => {
+    // The browser's native scroll-restoration re-applies the previous scroll
+    // offset on reload, which fights Lenis's own position on mount and can
+    // make a below-the-fold image get measured as the page's LCP element.
+    // Every navigation should start from the top, same as a real first visit.
+    if ("scrollRestoration" in window.history) {
+      window.history.scrollRestoration = "manual";
+    }
+    window.scrollTo(0, 0);
+
     const lenis = new Lenis({
       duration: 1.15,
       easing: (t: number) => 1 - Math.pow(1 - t, 3),
