@@ -138,7 +138,11 @@
       "Bash(cp \"c:/Users/samoh/Downloads/about us -20260803T053540Z-1-001/about us/bbbf3ecb-6a77-4823-a295-491172997891 \\(1\\).png\" \"D:/IOT-APM/public/images/ourevalution/why-partner-engineers.png\")",
       "Bash(cp \"c:/Users/samoh/Downloads/about us -20260803T053540Z-1-001/about us/a7b3f1d9-c2e6-41ec-9eff-27f03a8bbb17.png\" \"D:/IOT-APM/public/images/ourevalution/why-partner-safety-gear.png\")",
       "Bash(tasklist //FI \"PID eq 6216\")",
-      "Bash(wmic process *)"
+      "Bash(wmic process *)",
+      "Bash(mkdir -p \"/c/Users/samoh/AppData/Local/Temp/claude/D--IOT-APM/d7b3ec17-a490-4b19-9965-f437c7173198/scratchpad/docx_extract\")",
+      "Bash(cp \"/c/Users/samoh/Downloads/PRODUCT CONTENT FOR WEBSITE.docx\" ./content.zip)",
+      "Bash(unzip -o content.zip -d extracted)",
+      "Bash(taskkill //F //IM node.exe //FI \"WINDOWTITLE eq npm*\")"
     ]
   }
 }

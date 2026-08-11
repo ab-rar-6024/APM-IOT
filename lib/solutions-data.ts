@@ -2266,6 +2266,286 @@ export const products: Product[] = [
       { value: "<2s", label: "Average alert notification time", iconName: "antenna" },
       { value: "4.8★", label: "App Store & Play Store rating", iconName: "map" }
     ]
+  },
+  {
+    slug: "rover-ai-dash-cam",
+    name: "Rover AI Dash Cam",
+    categories: ["video-surveillance"],
+    image: "/images/verticalb2c/frame-7115.png",
+    shortDesc: "AI-powered dash cam that turns road-facing footage into real-time driver safety alerts.",
+    overview:
+      "Rover AI Dash Cam is an intelligent vehicle camera solution designed to enhance road safety, driver awareness, and fleet visibility. It combines high-quality video recording with AI-powered monitoring to identify unsafe driving behavior, capture important road events, and provide reliable video evidence.",
+    features: [
+      "AI-powered driver behavior monitoring",
+      "Road-facing HD video recording",
+      "Real-time unsafe driving alerts",
+      "Incident event video capture",
+      "Cloud & local video evidence storage"
+    ],
+    specifications: [
+      { label: "Resolution", value: "1080p Full HD" },
+      { label: "Connectivity", value: "4G LTE / WiFi" },
+      { label: "AI Processing", value: "Onboard edge AI engine" },
+      { label: "Storage", value: "MicroSD + cloud backup" },
+      { label: "Operating Temperature", value: "-20°C to 70°C" },
+      { label: "Warranty", value: "1 year" }
+    ],
+    benefits: [
+      "Improve road safety with proactive alerts",
+      "Build a reliable record of road incidents",
+      "Strengthen fleet oversight and accountability"
+    ],
+    applications: ["Logistics & transport fleets", "School & staff transport", "Corporate & passenger vehicles"],
+    faq: [
+      { q: "Does the Rover AI Dash Cam detect unsafe driving in real time?", a: "Yes, onboard AI continuously analyzes road-facing footage and driver behavior to flag risks as they happen." },
+      { q: "Where is footage stored?", a: "Footage is stored locally and can be backed up to the cloud for retrieval and incident review." }
+    ],
+    stats: [
+      { value: "1080p", label: "Full HD road-facing recording", iconName: "antenna" },
+      { value: "AI", label: "Real-time driver behavior alerts", iconName: "medal" },
+      { value: "24/7", label: "Continuous road monitoring", iconName: "shield" },
+      { value: "Cloud", label: "Backed-up video evidence", iconName: "map" }
+    ]
+  },
+  {
+    slug: "mobile-dvr",
+    name: "Mobile DVR",
+    categories: ["video-surveillance"],
+    image: "/images/verticals/frame-7115.png",
+    shortDesc: "Multi-camera mobile DVR for continuous in-vehicle video recording and monitoring.",
+    overview:
+      "Mobile DVR is a reliable in-vehicle video recording and monitoring solution designed for continuous surveillance of vehicles and mobile assets. It records and stores footage from connected cameras, helping businesses monitor vehicle activity, improve security, support driver management, and provide valuable video evidence during incidents.",
+    features: [
+      "Multi-camera video recording",
+      "Real-time video monitoring",
+      "Continuous loop recording",
+      "Event & incident-triggered recording",
+      "Remote video access"
+    ],
+    specifications: [
+      { label: "Camera Channels", value: "Up to 4 channels" },
+      { label: "Storage", value: "SD card + optional HDD" },
+      { label: "Connectivity", value: "4G / WiFi remote access" },
+      { label: "Recording Mode", value: "Continuous & event-triggered" },
+      { label: "Operating Temperature", value: "-20°C to 70°C" },
+      { label: "Warranty", value: "1 year" }
+    ],
+    benefits: [
+      "Enhance vehicle and driver security",
+      "Build reliable video evidence for every trip",
+      "Investigate incidents faster with retrievable footage"
+    ],
+    applications: ["Logistics & transport fleets", "Bus & passenger vehicles", "Commercial & delivery vehicles"],
+    faq: [
+      { q: "How many cameras can connect to the Mobile DVR?", a: "The Mobile DVR supports multiple camera channels for full-vehicle coverage, configurable to the fleet's needs." },
+      { q: "Can footage be viewed remotely?", a: "Yes, footage can be accessed remotely over 4G or WiFi in addition to on-device retrieval." }
+    ],
+    stats: [
+      { value: "Multi-Cam", label: "Simultaneous channel recording", iconName: "antenna" },
+      { value: "24/7", label: "Continuous vehicle surveillance", iconName: "shield" },
+      { value: "Remote", label: "Live & recorded video access", iconName: "map" },
+      { value: "Event-Trig.", label: "Automatic incident capture", iconName: "medal" }
+    ]
+  },
+  {
+    slug: "4-channel-recording-display-set",
+    name: "4 Channel Recording Display Set",
+    categories: ["video-surveillance"],
+    image: "/images/verticalb2g/frame-7118.png",
+    shortDesc: "4-channel video recording and display system for complete around-vehicle visibility.",
+    overview:
+      "The 4 Channel Recording Display Set is an advanced vehicle video monitoring solution designed to record and display footage from up to four cameras simultaneously. It provides comprehensive visibility around the vehicle, helping improve safety, enhance driver awareness, and provide reliable video evidence for fleet and commercial vehicle operations.",
+    features: [
+      "4-channel simultaneous camera recording",
+      "Live split-screen display",
+      "High-quality video capture",
+      "Full-perimeter vehicle monitoring",
+      "Incident evidence storage"
+    ],
+    specifications: [
+      { label: "Camera Channels", value: "4" },
+      { label: "Display", value: "Simultaneous split-screen live view" },
+      { label: "Storage", value: "SD card, expandable" },
+      { label: "Video Quality", value: "High-definition recording" },
+      { label: "Operating Temperature", value: "-20°C to 70°C" },
+      { label: "Warranty", value: "1 year" }
+    ],
+    benefits: [
+      "See the full perimeter of the vehicle at once",
+      "Improve driver awareness of blind spots",
+      "Strengthen fleet-wide video monitoring"
+    ],
+    applications: ["Logistics & transport fleets", "School & staff transport", "Construction & utility vehicles"],
+    faq: [
+      { q: "Can all four camera feeds be viewed at once?", a: "Yes, the display shows all four channels simultaneously in a split-screen live view." },
+      { q: "Is footage retained for incident review?", a: "Yes, recorded footage is stored locally for retrieval during incident investigations." }
+    ],
+    stats: [
+      { value: "4-Ch", label: "Simultaneous camera recording", iconName: "antenna" },
+      { value: "Live", label: "Split-screen vehicle view", iconName: "map" },
+      { value: "HD", label: "High-quality video capture", iconName: "medal" },
+      { value: "360°", label: "Full-perimeter visibility", iconName: "shield" }
+    ]
+  },
+  {
+    slug: "7-inch-smart-recording-monitor",
+    name: "7'' Smart Recording Monitor",
+    categories: ["video-surveillance"],
+    image: "/images/verticals/frame-7118.png",
+    shortDesc: "7-inch in-vehicle smart monitor with live multi-camera view and recording.",
+    overview:
+      "The 7'' Smart Recording Monitor is an intelligent in-vehicle monitoring solution that combines a large display with video recording capabilities. It provides clear real-time visibility of connected vehicle cameras while recording important driving and road events, helping improve vehicle safety, driver awareness, and incident monitoring.",
+    features: [
+      "7-inch high-visibility smart display",
+      "Multi-camera live video monitoring",
+      "Real-time camera view switching",
+      "Onboard video recording & storage",
+      "Simple in-vehicle controls"
+    ],
+    specifications: [
+      { label: "Display Size", value: "7-inch" },
+      { label: "Camera Inputs", value: "Multi-channel" },
+      { label: "Storage", value: "SD card recording" },
+      { label: "Viewing Mode", value: "Real-time live feed" },
+      { label: "Operating Temperature", value: "-20°C to 70°C" },
+      { label: "Warranty", value: "1 year" }
+    ],
+    benefits: [
+      "Give drivers clear, real-time visibility",
+      "Support faster in-cabin incident response",
+      "Keep operation simple for every driver"
+    ],
+    applications: ["Buses & passenger vehicles", "Commercial & delivery vehicles", "Corporate & fleet operations"],
+    faq: [
+      { q: "Can the monitor display multiple cameras?", a: "Yes, it supports multi-camera inputs so drivers can view connected feeds in real time." },
+      { q: "Does it record while displaying live video?", a: "Yes, the monitor records footage to onboard storage while showing the live camera feed." }
+    ],
+    stats: [
+      { value: "7\"", label: "In-cabin smart display", iconName: "map" },
+      { value: "Live", label: "Real-time camera switching", iconName: "antenna" },
+      { value: "Onboard", label: "Video recording & storage", iconName: "medal" },
+      { value: "Easy-Op", label: "Simple driver controls", iconName: "shield" }
+    ]
+  },
+  {
+    slug: "ais-140-4g-oem-device",
+    name: "AIS 140 4G OEM Device",
+    categories: ["public-transport-solutions"],
+    image: "/images/verticals/frame-7113.png",
+    shortDesc: "AIS-140 compliant 4G OEM tracking device for connected vehicle platforms.",
+    overview:
+      "The AIS-140 4G OEM Device is a reliable vehicle tracking solution designed for real-time location monitoring, fleet management, and regulatory compliance. Built for connected vehicle applications, it enables businesses to monitor vehicle location, movement, and operational data while supporting efficient and safer fleet operations.",
+    features: [
+      "AIS-140 compliant tracking hardware",
+      "4G cellular connectivity",
+      "Real-time vehicle location reporting",
+      "GPS-based positioning",
+      "Fleet management platform integration"
+    ],
+    specifications: [
+      { label: "Connectivity", value: "4G LTE" },
+      { label: "Positioning", value: "GPS-based tracking" },
+      { label: "Certification", value: "AIS-140 compliant" },
+      { label: "Form Factor", value: "OEM-integrated device" },
+      { label: "Operating Temperature", value: "-20°C to 70°C" },
+      { label: "Warranty", value: "1 year" }
+    ],
+    benefits: [
+      "Gain real-time visibility across the fleet",
+      "Meet regulatory tracking requirements",
+      "Support safer, more efficient operations"
+    ],
+    applications: ["Public transport fleets", "Logistics & transport fleets", "Taxi & commercial vehicles"],
+    faq: [
+      { q: "Is the AIS 140 4G OEM Device certified for public transport?", a: "Yes, it's built to AIS-140 compliance for public and commercial vehicle tracking mandates." },
+      { q: "Can it be integrated by OEMs directly into vehicles?", a: "Yes, it's designed as an OEM-ready device for direct integration into connected vehicle platforms." }
+    ],
+    stats: [
+      { value: "AIS-140", label: "Certified tracking standard", iconName: "shield" },
+      { value: "4G LTE", label: "Cellular connectivity", iconName: "antenna" },
+      { value: "Real-Time", label: "Vehicle location reporting", iconName: "map" },
+      { value: "OEM", label: "Direct vehicle integration", iconName: "medal" }
+    ]
+  },
+  {
+    slug: "advanced-fuel-management-system",
+    name: "Advanced Fuel Management System",
+    categories: ["fleet-management"],
+    image: "/images/verticals/frame-7120.png",
+    shortDesc: "Real-time fuel level, consumption, and theft monitoring for fleet vehicles.",
+    overview:
+      "The Advanced Fuel Management System is an intelligent vehicle fuel monitoring solution designed to track fuel levels, consumption, and usage patterns in real time. It helps fleet operators identify fuel wastage, monitor refuelling activities, reduce operational costs, and improve overall fleet efficiency.",
+    features: [
+      "Real-time fuel level monitoring",
+      "Fuel consumption tracking",
+      "Fuel theft & leakage detection",
+      "Refuelling event monitoring",
+      "Fuel usage reports & analytics"
+    ],
+    specifications: [
+      { label: "Sensing Method", value: "Capacitive / ultrasonic fuel level sensor" },
+      { label: "Connectivity", value: "4G LTE reporting" },
+      { label: "Alerts", value: "Theft & rapid-drain detection" },
+      { label: "Reporting", value: "Automated usage analytics" },
+      { label: "Operating Temperature", value: "-20°C to 70°C" },
+      { label: "Warranty", value: "1 year" }
+    ],
+    benefits: [
+      "Cut fuel costs from waste and theft",
+      "Catch fuel theft and leakage as it happens",
+      "Turn fuel data into clear operational reports"
+    ],
+    applications: ["Logistics & transport fleets", "Construction & heavy vehicles", "Bus & passenger fleets"],
+    faq: [
+      { q: "How does the system detect fuel theft?", a: "It monitors fuel level in real time and flags rapid, unexplained drops that indicate theft or leakage." },
+      { q: "Can I see refuelling activity for each vehicle?", a: "Yes, every refuelling event is logged and available in the usage reports and analytics dashboard." }
+    ],
+    stats: [
+      { value: "Real-Time", label: "Fuel level monitoring", iconName: "antenna" },
+      { value: "Theft Det.", label: "Rapid-drain alerting", iconName: "shield" },
+      { value: "Analytics", label: "Fuel usage reporting", iconName: "medal" },
+      { value: "4G", label: "Live fleet-wide reporting", iconName: "map" }
+    ]
+  },
+  {
+    slug: "nexus-smart-safety-ecu",
+    name: "Nexus Smart Safety ECU",
+    categories: ["vehicle-safety"],
+    image: "/images/verticals/frame-7116.png",
+    shortDesc: "Centralized electronic control unit that monitors and manages vehicle safety functions.",
+    overview:
+      "The Nexus Smart Safety ECU is an intelligent vehicle safety control unit designed to monitor and manage critical safety functions within a vehicle. It supports improved vehicle safety, operational reliability, and system control by integrating multiple safety-related inputs and functions into a centralized electronic unit.",
+    features: [
+      "Intelligent safety monitoring",
+      "Centralized ECU control",
+      "Real-time vehicle status monitoring",
+      "Safety system integration",
+      "Reliable vehicle operation control"
+    ],
+    specifications: [
+      { label: "Control Type", value: "Centralized safety ECU" },
+      { label: "Inputs", value: "Multi-sensor safety integration" },
+      { label: "Monitoring", value: "Real-time vehicle status" },
+      { label: "Response", value: "Automated safety response" },
+      { label: "Operating Temperature", value: "-20°C to 70°C" },
+      { label: "Warranty", value: "1 year" }
+    ],
+    benefits: [
+      "Respond to safety events faster",
+      "Centralize safety control into one reliable unit",
+      "Improve operational efficiency fleet-wide"
+    ],
+    applications: ["Commercial & fleet vehicles", "Buses & passenger vehicles", "School & staff transport"],
+    faq: [
+      { q: "What does the Nexus Smart Safety ECU control?", a: "It centralizes multiple vehicle safety inputs and functions into one electronic unit for coordinated monitoring and response." },
+      { q: "Can it integrate with other safety systems?", a: "Yes, it's designed to integrate with existing vehicle safety systems and sensors." }
+    ],
+    stats: [
+      { value: "Central.", label: "Safety system control", iconName: "shield" },
+      { value: "Real-Time", label: "Vehicle status monitoring", iconName: "antenna" },
+      { value: "Multi-In.", label: "Integrated safety sensors", iconName: "medal" },
+      { value: "Fast", label: "Automated safety response", iconName: "map" }
+    ]
   }
 ];
 
