@@ -142,7 +142,9 @@
       "Bash(mkdir -p \"/c/Users/samoh/AppData/Local/Temp/claude/D--IOT-APM/d7b3ec17-a490-4b19-9965-f437c7173198/scratchpad/docx_extract\")",
       "Bash(cp \"/c/Users/samoh/Downloads/PRODUCT CONTENT FOR WEBSITE.docx\" ./content.zip)",
       "Bash(unzip -o content.zip -d extracted)",
-      "Bash(taskkill //F //IM node.exe //FI \"WINDOWTITLE eq npm*\")"
+      "Bash(taskkill //F //IM node.exe //FI \"WINDOWTITLE eq npm*\")",
+      "PowerShell(Add-Type -AssemblyName System.Drawing; $img = [System.Drawing.Image]::FromFile\\('D:\\\\IOT-APM\\\\public\\\\images\\\\certifications\\\\iso9001.png'\\); \"$\\($img.Width\\)x$\\($img.Height\\)\"; $img.Dispose\\(\\))",
+      "PowerShell(Add-Type -AssemblyName System.Drawing; $img = [System.Drawing.Image]::FromFile\\('c:\\\\Users\\\\samoh\\\\AppData\\\\Local\\\\Temp\\\\images \\(1\\).png'\\); \"$\\($img.Width\\)x$\\($img.Height\\)\"; $img.Dispose\\(\\))"
     ]
   }
 }

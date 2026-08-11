@@ -90,13 +90,16 @@ export default function Footer() {
     <footer id="contact" className="relative z-10 bg-navy">
       {/* Logo row */}
       <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-16 pb-10 flex justify-center">
-        <Link href="/">
+        <Link
+          href="/"
+          className="bg-white rounded-2xl px-7 py-4 shadow-[0_0_45px_rgba(255,255,255,0.35)] hover:shadow-[0_0_60px_rgba(255,255,255,0.5)] transition-shadow duration-300"
+        >
           <Image
             src="/images/layoutimg/apm-logo-1.png"
             alt="APM Group Logo"
             width={140}
             height={40}
-            className="object-contain w-auto h-10 brightness-110 filter"
+            className="object-contain w-auto h-10"
             style={{ width: "auto", height: "auto" }}
             priority
           />
