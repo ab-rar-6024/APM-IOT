@@ -8,14 +8,14 @@ interface ClientLogo {
 }
 
 const clientsData: ClientLogo[] = [
-  { name: "Bentley", logo: "/images/clients/bentley.png" },
+  { name: "Bentley", logo: "/images/clients/bentley.jpg" },
   { name: "Tata", logo: "/images/clients/tata.png" },
   { name: "Mahindra Rise", logo: "/images/clients/mahindra.png" },
   { name: "Ashok Leyland", logo: "/images/clients/ashok-leyland.png" },
   { name: "Indian Coast Guard", logo: "/images/clients/coast-guard.png" },
   { name: "Larsen & Toubro", logo: "/images/clients/larsen-toubro.png" },
-  { name: "Ford", logo: "/images/clients/ford.png" },
-  { name: "Eicher", logo: "/images/clients/eicher.png" },
+  { name: "Ford", logo: "/images/clients/ford.jpg" },
+  { name: "Eicher", logo: "/images/clients/eicher.jpg" },
   { name: "CEAT", logo: "/images/clients/ceat.png" },
   { name: "Ramco Supergrade", logo: "/images/clients/ramco.png" },
   { name: "Rando", logo: "/images/clients/rando.png" },
@@ -81,6 +81,7 @@ export default function TrustedClientsSection() {
                   alt={client.name}
                   width={220}
                   height={80}
+                  quality={100}
                   className="object-contain max-h-20 md:max-h-24 max-w-full group-hover:scale-105 transition-transform duration-300"
                 />
               </div>

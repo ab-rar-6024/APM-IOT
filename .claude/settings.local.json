@@ -144,7 +144,14 @@
       "Bash(unzip -o content.zip -d extracted)",
       "Bash(taskkill //F //IM node.exe //FI \"WINDOWTITLE eq npm*\")",
       "PowerShell(Add-Type -AssemblyName System.Drawing; $img = [System.Drawing.Image]::FromFile\\('D:\\\\IOT-APM\\\\public\\\\images\\\\certifications\\\\iso9001.png'\\); \"$\\($img.Width\\)x$\\($img.Height\\)\"; $img.Dispose\\(\\))",
-      "PowerShell(Add-Type -AssemblyName System.Drawing; $img = [System.Drawing.Image]::FromFile\\('c:\\\\Users\\\\samoh\\\\AppData\\\\Local\\\\Temp\\\\images \\(1\\).png'\\); \"$\\($img.Width\\)x$\\($img.Height\\)\"; $img.Dispose\\(\\))"
+      "PowerShell(Add-Type -AssemblyName System.Drawing; $img = [System.Drawing.Image]::FromFile\\('c:\\\\Users\\\\samoh\\\\AppData\\\\Local\\\\Temp\\\\images \\(1\\).png'\\); \"$\\($img.Width\\)x$\\($img.Height\\)\"; $img.Dispose\\(\\))",
+      "Bash(cp '/c/Users/samoh/Downloads/clients images-20260812T124721Z-1-001/clients images/images.jpg' /d/IOT-APM/public/images/clients/bentley.jpg)",
+      "Bash(cp '/c/Users/samoh/Downloads/clients images-20260812T124721Z-1-001/clients images/images.png' /d/IOT-APM/public/images/clients/tata.png)",
+      "Bash(cp '/c/Users/samoh/Downloads/clients images-20260812T124721Z-1-001/clients images/images \\(1\\).png' /d/IOT-APM/public/images/clients/mahindra.png)",
+      "Bash(cp '/c/Users/samoh/Downloads/clients images-20260812T124721Z-1-001/clients images/ashok-leyland-logo-png_seeklogo-288835.png' /d/IOT-APM/public/images/clients/ashok-leyland.png)",
+      "Bash(cp '/c/Users/samoh/Downloads/clients images-20260812T124721Z-1-001/clients images/larsen-toubro-lt-logo-png_seeklogo-211460.png' /d/IOT-APM/public/images/clients/larsen-toubro.png)",
+      "Bash(identify \"public/images/clients/srm.png\" \"public/images/clients/rolls-royce.png\" \"public/images/clients/st-courier.png\")",
+      "Bash(/c/Users/samoh/AppData/Local/Programs/Python/Python311/python *)"
     ]
   }
 }
