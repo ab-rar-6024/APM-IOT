@@ -1127,7 +1127,7 @@ export const products: Product[] = [
     slug: "rover-elite",
     name: "Rover Elite",
     categories: ["fleet-management"],
-    image: "/images/verticals/frame-7114.png",
+    image: "/images/products/rover-elite.png",
     shortDesc: "Compact GPS tracking device for real-time fleet visibility.",
     overview:
       "Rover Elite is a certified GPS tracker that shows you exactly where your vehicles are, in real time. It's installed and supported by APM's dealer network across India.",
@@ -1167,7 +1167,7 @@ export const products: Product[] = [
     slug: "rover-elite-plus",
     name: "Rover Elite+",
     categories: ["fleet-management"],
-    image: "/images/verticals/frame-7115.png",
+    image: "/images/products/rover-elite-plus.png",
     shortDesc: "Enhanced GPS tracker with extended sensor and reporting capabilities.",
     overview:
       "Rover Elite+ does everything Rover Elite does, plus extra sensors and driver-ID support for fleets that need more detail. It's backed by the same nationwide installation and service network.",
@@ -1207,7 +1207,7 @@ export const products: Product[] = [
     slug: "rover-asset",
     name: "Rover Asset",
     categories: ["asset-tracking"],
-    image: "/images/verticals/frame-7114.png",
+    image: "/images/products/rover-asset.png",
     shortDesc: "Battery-powered asset tracker for non-motorized and stationary equipment.",
     overview:
       "Rover Asset tracks trailers, containers, and equipment that have no power source of their own. It runs on battery for up to two years, so there's no wiring needed.",
@@ -1287,7 +1287,7 @@ export const products: Product[] = [
     slug: "auto-fare-meter",
     name: "Auto Fare Meter",
     categories: ["public-transport-solutions"],
-    image: "/images/verticalb2c/frame-7120.png",
+    image: "/images/products/auto-fare-meter.png",
     shortDesc: "Digital fare metering system for taxis and app-based cab fleets.",
     overview:
       "Auto Fare Meter calculates taxi and cab fares automatically from GPS distance, so passengers get an accurate, tamper-proof fare every time.",
@@ -1363,7 +1363,7 @@ export const products: Product[] = [
     slug: "reverse-parking-system",
     name: "Reverse Parking System",
     categories: ["vehicle-safety"],
-    image: "/images/verticalb2c/frame-7117.png",
+    image: "/images/products/reverse-parking-system.png",
     shortDesc: "Ultrasonic reverse parking assistance with audible and visual alerts.",
     overview:
       "This system uses sensors to warn drivers when something is close behind the vehicle, cutting down on reversing accidents for buses and trucks.",
@@ -1403,7 +1403,7 @@ export const products: Product[] = [
     slug: "speed-limiting-device",
     name: "Speed Limiting Devices",
     categories: ["vehicle-safety"],
-    image: "/images/verticalb2c/frame-7113.png",
+    image: "/images/products/speed-limiting-device.png",
     shortDesc: "AIS-140 compliant mechanical speed governor for commercial vehicles.",
     overview:
       "Speed Limiting Devices stop commercial vehicles from going over the legal speed limit. They're tamper-proof and certified by ARAI and ICAT.",
@@ -1443,7 +1443,7 @@ export const products: Product[] = [
     slug: "auto-dipper-sensor",
     name: "Auto Dipper Sensor",
     categories: ["vehicle-safety"],
-    image: "/images/verticals/frame-7116.png",
+    image: "/images/products/auto-dipper-sensor.png",
     shortDesc: "Automatic headlight dipping sensor to reduce glare for oncoming traffic.",
     overview:
       "Auto Dipper Sensor automatically switches headlights between high and low beam, cutting down on the glare that causes night-time accidents.",
@@ -1479,7 +1479,7 @@ export const products: Product[] = [
     slug: "vehicle-conspicuity-tape",
     name: "Vehicle Conspicuity Tape",
     categories: ["vehicle-safety"],
-    image: "/images/verticalb2c/frame-7116.png",
+    image: "/images/products/vehicle-conspicuity-tape.png",
     shortDesc: "High-visibility reflective tape improving vehicle detection at night.",
     overview:
       "This reflective tape makes vehicles easier to see at night and lasts up to 7 years outdoors — a simple, low-cost way to improve safety.",
@@ -1779,7 +1779,7 @@ export const products: Product[] = [
     slug: "dc-to-dc-converter",
     name: "DC to DC Converter",
     categories: ["electric-mobility"],
-    image: "/images/verticals/frame-7119.png",
+    image: "/images/products/dc-to-dc-converter.png",
     shortDesc: "Automotive-grade power converter for stable device power delivery.",
     overview:
       "This converter keeps onboard electronics powered safely, protecting them from voltage spikes with up to 92% efficiency.",
@@ -1963,7 +1963,7 @@ export const products: Product[] = [
     slug: "ais-140-gps",
     name: "AIS 140 GPS",
     categories: ["public-transport-solutions"],
-    image: "/images/verticals/frame-7113.png",
+    image: "/images/products/ais-140-gps.png",
     shortDesc: "Government-mandated AIS-140 compliant GPS tracking device.",
     overview:
       "A government-mandated GPS tracker for buses, taxis, and school vehicles, reporting location straight to official tracking systems.",
@@ -1999,7 +1999,7 @@ export const products: Product[] = [
     slug: "high-security-registration-plate",
     name: "High Security Registration Plate",
     categories: ["vehicle-compliance"],
-    image: "/images/verticals/frame-7122.png",
+    image: "/images/products/high-security-registration-plate.png",
     shortDesc: "Tamper-proof HSRP number plates compliant with government mandates.",
     overview:
       "A tamper-proof number plate with a laser-etched code and hologram, required by law for vehicle registration.",
@@ -2079,7 +2079,7 @@ export const products: Product[] = [
     slug: "rover-view",
     name: "Rover View",
     categories: ["video-surveillance"],
-    image: "/images/verticals/frame-7123.png",
+    image: "/images/products/rover-view.png",
     shortDesc: "AI-powered vision analytics platform for fleet and driver insight.",
     overview:
       "Rover View turns camera footage into useful insight, flagging risky driving and safety incidents in real time so fleet managers can act faster.",
@@ -2271,7 +2271,7 @@ export const products: Product[] = [
     slug: "rover-ai-dash-cam",
     name: "Rover AI Dash Cam",
     categories: ["video-surveillance"],
-    image: "/images/verticalb2c/frame-7115.png",
+    image: "/images/products/rover-ai-dash-cam.png",
     shortDesc: "AI-powered dash cam that turns road-facing footage into real-time driver safety alerts.",
     overview:
       "Rover AI Dash Cam is an intelligent vehicle camera solution designed to enhance road safety, driver awareness, and fleet visibility. It combines high-quality video recording with AI-powered monitoring to identify unsafe driving behavior, capture important road events, and provide reliable video evidence.",
@@ -2311,7 +2311,7 @@ export const products: Product[] = [
     slug: "mobile-dvr",
     name: "Mobile DVR",
     categories: ["video-surveillance"],
-    image: "/images/verticals/frame-7115.png",
+    image: "/images/products/mobile-dvr.png",
     shortDesc: "Multi-camera mobile DVR for continuous in-vehicle video recording and monitoring.",
     overview:
       "Mobile DVR is a reliable in-vehicle video recording and monitoring solution designed for continuous surveillance of vehicles and mobile assets. It records and stores footage from connected cameras, helping businesses monitor vehicle activity, improve security, support driver management, and provide valuable video evidence during incidents.",
@@ -2351,7 +2351,7 @@ export const products: Product[] = [
     slug: "4-channel-recording-display-set",
     name: "4 Channel Recording Display Set",
     categories: ["video-surveillance"],
-    image: "/images/verticalb2g/frame-7118.png",
+    image: "/images/products/4-channel-recording-display-set.png",
     shortDesc: "4-channel video recording and display system for complete around-vehicle visibility.",
     overview:
       "The 4 Channel Recording Display Set is an advanced vehicle video monitoring solution designed to record and display footage from up to four cameras simultaneously. It provides comprehensive visibility around the vehicle, helping improve safety, enhance driver awareness, and provide reliable video evidence for fleet and commercial vehicle operations.",
@@ -2391,7 +2391,7 @@ export const products: Product[] = [
     slug: "7-inch-smart-recording-monitor",
     name: "7'' Smart Recording Monitor",
     categories: ["video-surveillance"],
-    image: "/images/verticals/frame-7118.png",
+    image: "/images/products/7-inch-smart-recording-monitor.png",
     shortDesc: "7-inch in-vehicle smart monitor with live multi-camera view and recording.",
     overview:
       "The 7'' Smart Recording Monitor is an intelligent in-vehicle monitoring solution that combines a large display with video recording capabilities. It provides clear real-time visibility of connected vehicle cameras while recording important driving and road events, helping improve vehicle safety, driver awareness, and incident monitoring.",
