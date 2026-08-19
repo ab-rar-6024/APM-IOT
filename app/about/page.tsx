@@ -298,7 +298,6 @@ export default function AboutPage() {
           priority
           className="object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/40 via-transparent to-slate-950/40 pointer-events-none" />
       </section>
 
       {/* 1. About Us Text & Image Split Section */}
