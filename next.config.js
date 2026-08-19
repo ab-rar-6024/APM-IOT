@@ -13,6 +13,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "apmgroups.in",
       },
+      {
+        protocol: "https",
+        hostname: "nfrmfdrdgkoduduobjsf.supabase.co",
+      },
     ],
   },
   async redirects() {

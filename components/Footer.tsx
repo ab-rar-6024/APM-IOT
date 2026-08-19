@@ -86,6 +86,8 @@ export default function Footer() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  if (pathname?.startsWith("/admin")) return null;
+
   return (
     <footer id="contact" className="relative z-10 bg-navy">
       {/* Logo row */}

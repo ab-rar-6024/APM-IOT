@@ -157,7 +157,15 @@
       "Bash(powershell -Command \"Stop-Process -Id 25664 -Force\")",
       "Bash(powershell -Command \"Get-CimInstance Win32_Process -Filter \\\\\"CommandLine LIKE '%start-server.js%'\\\\\" | Select-Object ProcessId,CommandLine\" 2>&1)",
       "Bash(powershell -Command \"Stop-Process -Id 23628 -Force\")",
-      "Bash(powershell -Command \"Get-Process -Id 1652 -ErrorAction SilentlyContinue | Select-Object Id,ProcessName\")"
+      "Bash(powershell -Command \"Get-Process -Id 1652 -ErrorAction SilentlyContinue | Select-Object Id,ProcessName\")",
+      "Bash(powershell -Command \"Stop-Process -Id 26524 -Force\")",
+      "Bash(powershell -Command \"Get-CimInstance Win32_Process -Filter \\\\\"CommandLine LIKE '%start-server.js%'\\\\\" | Select-Object ProcessId\" 2>&1)",
+      "Bash(jobs *)",
+      "Bash(powershell -Command \"Get-CimInstance Win32_Process -Filter \\\\\"CommandLine LIKE '%start-server.js%'\\\\\" | Select-Object ProcessId,ParentProcessId,CreationDate\" 2>&1)",
+      "Bash(powershell -Command \"Get-Process node -ErrorAction SilentlyContinue | Where-Object { \\\\$_.Path -like '*node.exe*' } | Select-Object Id\" 2>&1)",
+      "Bash(powershell -Command \"Get-CimInstance Win32_Process -Filter \\\\\"CommandLine LIKE '%start-server.js%'\\\\\" | Select-Object ProcessId\")",
+      "Bash(powershell -Command ' *)",
+      "Bash(powershell -Command \"Get-Process node -ErrorAction SilentlyContinue | Select-Object Id, StartTime\")"
     ]
   }
 }
