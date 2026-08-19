@@ -151,7 +151,10 @@
       "Bash(cp '/c/Users/samoh/Downloads/clients images-20260812T124721Z-1-001/clients images/ashok-leyland-logo-png_seeklogo-288835.png' /d/IOT-APM/public/images/clients/ashok-leyland.png)",
       "Bash(cp '/c/Users/samoh/Downloads/clients images-20260812T124721Z-1-001/clients images/larsen-toubro-lt-logo-png_seeklogo-211460.png' /d/IOT-APM/public/images/clients/larsen-toubro.png)",
       "Bash(identify \"public/images/clients/srm.png\" \"public/images/clients/rolls-royce.png\" \"public/images/clients/st-courier.png\")",
-      "Bash(/c/Users/samoh/AppData/Local/Programs/Python/Python311/python *)"
+      "Bash(/c/Users/samoh/AppData/Local/Programs/Python/Python311/python *)",
+      "Bash(powershell -Command \"Get-Process -Id 25664 | Select-Object Id,ProcessName,Path\" 2>&1)",
+      "Bash(powershell -Command \"Get-CimInstance Win32_Process -Filter 'ProcessId=25664' | Select-Object CommandLine\" 2>&1)",
+      "Bash(powershell -Command \"Stop-Process -Id 25664 -Force\")"
     ]
   }
 }

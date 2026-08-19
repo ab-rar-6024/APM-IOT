@@ -43,6 +43,9 @@ const config: Config = {
         "orbit": "orbit 28s linear infinite",
         "orbit-slow": "orbit 48s linear infinite",
         "orbit-reverse": "orbitReverse 48s linear infinite",
+        "logo-glow": "logoGlow 3.5s ease-in-out infinite",
+        "logo-float": "logoFloat 6s ease-in-out infinite",
+        "glitch": "glitch 4s ease-in-out infinite",
       },
       keyframes: {
         fadeUp: {
@@ -120,6 +123,27 @@ const config: Config = {
         orbitReverse: {
           "0%": { transform: "rotate(0deg)" },
           "100%": { transform: "rotate(-360deg)" },
+        },
+        logoGlow: {
+          "0%, 100%": {
+            filter:
+              "drop-shadow(0 0 10px rgba(62,189,237,0.35)) drop-shadow(0 0 22px rgba(62,189,237,0.18))",
+          },
+          "50%": {
+            filter:
+              "drop-shadow(0 0 24px rgba(62,189,237,0.7)) drop-shadow(0 0 46px rgba(62,189,237,0.35))",
+          },
+        },
+        logoFloat: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-6px)" },
+        },
+        glitch: {
+          "0%, 90%, 100%": { transform: "translate(0,0)", textShadow: "0 0 0 rgba(0,0,0,0)" },
+          "91%": { transform: "translate(-3px, 1px)", textShadow: "3px 0 #ff3b6b, -3px 0 #3ee6ff" },
+          "93%": { transform: "translate(3px, -1px)", textShadow: "-3px 0 #ff3b6b, 3px 0 #3ee6ff" },
+          "95%": { transform: "translate(-2px, 0)", textShadow: "2px 0 #ff3b6b, -2px 0 #3ee6ff" },
+          "97%": { transform: "translate(0,0)", textShadow: "0 0 0 rgba(0,0,0,0)" },
         },
       },
     },
