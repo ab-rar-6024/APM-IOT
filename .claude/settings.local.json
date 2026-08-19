@@ -154,7 +154,10 @@
       "Bash(/c/Users/samoh/AppData/Local/Programs/Python/Python311/python *)",
       "Bash(powershell -Command \"Get-Process -Id 25664 | Select-Object Id,ProcessName,Path\" 2>&1)",
       "Bash(powershell -Command \"Get-CimInstance Win32_Process -Filter 'ProcessId=25664' | Select-Object CommandLine\" 2>&1)",
-      "Bash(powershell -Command \"Stop-Process -Id 25664 -Force\")"
+      "Bash(powershell -Command \"Stop-Process -Id 25664 -Force\")",
+      "Bash(powershell -Command \"Get-CimInstance Win32_Process -Filter \\\\\"CommandLine LIKE '%start-server.js%'\\\\\" | Select-Object ProcessId,CommandLine\" 2>&1)",
+      "Bash(powershell -Command \"Stop-Process -Id 23628 -Force\")",
+      "Bash(powershell -Command \"Get-Process -Id 1652 -ErrorAction SilentlyContinue | Select-Object Id,ProcessName\")"
     ]
   }
 }

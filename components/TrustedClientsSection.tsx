@@ -12,7 +12,6 @@ const clientsData: ClientLogo[] = [
   { name: "Tata", logo: "/images/clients/tata.png" },
   { name: "Mahindra Rise", logo: "/images/clients/mahindra.png" },
   { name: "Ashok Leyland", logo: "/images/clients/ashok-leyland.png" },
-  { name: "Indian Coast Guard", logo: "/images/clients/coast-guard.png" },
   { name: "Larsen & Toubro", logo: "/images/clients/larsen-toubro.png" },
   { name: "Ford", logo: "/images/clients/ford.jpg" },
   { name: "Eicher", logo: "/images/clients/eicher.jpg" },
@@ -29,7 +28,7 @@ const clientsData: ClientLogo[] = [
   { name: "Rolls-Royce", logo: "/images/clients/rolls-royce.png" },
   { name: "SRM Institute of Science & Technology", logo: "/images/clients/srm.png" },
   { name: "RB", logo: "/images/clients/rb.png" },
-  { name: "Taabi", logo: "/images/clients/taabi.png" },
+  { name: "Directorate of State Transport Gujarat", logo: "/images/clients/gujarat-transport.png" },
 ];
 
 export default function TrustedClientsSection() {
