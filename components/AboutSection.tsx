@@ -49,40 +49,15 @@ export default function AboutSection() {
 
           {/* Right Column: Recognition Banner Image Card */}
           <div className="lg:col-span-6">
-            <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3] rounded-3xl overflow-hidden border border-border shadow-xl bg-white">
+            <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3] rounded-3xl overflow-hidden border border-border shadow-xl bg-white group">
               <Image
                 src="/images/aboutusdetail/aboutbanner.png"
-                alt="APM connected vehicle platform — AI-driven telematics hardware linking a vehicle to a smart city network"
+                alt="APM Group - A Leading Provider of Connected Mobility, AIS-140 Telematics & IoT Hardware. ARAI & IATF Certified"
                 fill
-                sizes="(max-w-1024px) 100vw, 50vw"
-                className="object-cover object-right hover:scale-105 transition-transform duration-700"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover hover:scale-105 transition-transform duration-700"
                 priority
               />
-              {/* Responsive overlay matching the reference image layout tailored for APM Group */}
-              <div className="absolute inset-y-0 left-0 w-3/4 sm:w-2/3 lg:w-3/4 z-10 p-6 sm:p-8 flex flex-col justify-center bg-gradient-to-r from-white via-white/95 to-transparent">
-                <span className="text-slate-500 font-semibold text-[10px] sm:text-xs uppercase tracking-wider mb-1 sm:mb-2">
-                  Recognized Leader
-                </span>
-                <div className="relative inline-block mb-3 sm:mb-4">
-                  <h2 className="text-2xl sm:text-3xl font-black text-navy tracking-tight leading-none">
-                    APM Group
-                  </h2>
-                  <div className="w-12 sm:w-14 h-[3px] bg-primary mt-2 rounded-full" />
-                </div>
-                <p className="text-slate-700 text-xs sm:text-sm font-semibold leading-snug mb-4 max-w-[180px] sm:max-w-[220px]">
-                  A Leading Provider of Connected Mobility, AIS-140 Telematics &amp; IoT Hardware.
-                </p>
-                
-                {/* Certification Badge with Book/Shield Icon style */}
-                <div className="flex items-center gap-2 text-primary">
-                  <svg className="w-4 h-4 sm:w-4.5 sm:h-4.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
-                  </svg>
-                  <span className="text-[10px] sm:text-xs font-bold text-slate-800 tracking-wide uppercase">
-                    ARAI &amp; IATF Certified
-                  </span>
-                </div>
-              </div>
             </div>
           </div>
         </div>
