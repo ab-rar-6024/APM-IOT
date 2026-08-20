@@ -45,10 +45,10 @@ export default async function ProductsPage({
             </p>
           </div>
 
-          <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden border border-border shadow-xl">
+          <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden border border-border shadow-xl">
             <Image
               src="/images/products/apm-connected-fleet-telematics.png"
-              alt="APM connected vehicle fleet network — realistic road scene at dusk with high-tech HUD overlays representing ADAS, DMS, BSD, and real-time tracking"
+              alt="APM Connected Fleet & Telematics diagram highlighting Connected Mobility, AI Vision, Vehicle Safety, EV Power Electronics, and Fleet Intelligence"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"
