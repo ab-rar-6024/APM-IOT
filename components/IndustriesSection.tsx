@@ -12,7 +12,7 @@ const industriesData: IndustryItem[] = [
   { name: "Automotive OEM", image: "/images/solutions-topics/automated-testing-solutions.jpg" },
   { name: "Fleet & Logistics", image: "/images/solutions-topics/asset-tracking.jpg" },
   { name: "Mining", image: "https://images.pexels.com/photos/32325794/pexels-photo-32325794.jpeg?auto=compress&cs=tinysrgb&w=800" },
-  { name: "Construction", image: "/images/solutions-topics/workplace-safety.jpg" },
+  { name: "Construction", image: "/images/solutions-topics/workplace-safety.png" },
   { name: "Passenger Transport", image: "https://images.pexels.com/photos/14887744/pexels-photo-14887744.jpeg?auto=compress&cs=tinysrgb&w=800" },
   { name: "School Transportation", image: "https://images.pexels.com/photos/14044466/pexels-photo-14044466.jpeg?auto=compress&cs=tinysrgb&w=800" },
   { name: "Government", image: "/images/solutions-topics/video-surveillance.jpg" },

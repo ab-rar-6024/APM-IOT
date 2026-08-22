@@ -299,7 +299,7 @@ export const solutionCategories: SolutionCategory[] = [
     tagline: "Intelligent road safety and worksite protection for crews, drivers, and pedestrians sharing the same space.",
     description:
       "Traffic control infrastructure and certified protective equipment engineered to reduce accidents on roads, construction sites, and smart city corridors.",
-    heroImage: "/images/solutions-topics/workplace-safety.jpg",
+    heroImage: "/images/solutions-topics/workplace-safety.png",
     overview: [
       "Most road and worksite incidents share one root cause: someone or something wasn't seen, or protected, in time.",
       "APM addresses both sides — high-visibility traffic control that marks hazard zones for drivers, and certified protective equipment that keeps crews visible and protected on every shift.",
