@@ -1327,7 +1327,7 @@ export const products: Product[] = [
     slug: "vandal-proof-camera",
     name: "4G/WiFi Vandal Proof Camera",
     categories: ["video-surveillance"],
-    image: "/images/verticalb2c/frame-7115.png",
+    image: "/images/products/vandal-proof-camera.png",
     shortDesc: "Ruggedized 4G/WiFi camera built to withstand harsh vehicle environments.",
     overview:
       "This rugged camera keeps streaming and recording even when knocked around, with night vision built in. It's trusted on school and public transport buses.",
