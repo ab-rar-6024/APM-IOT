@@ -81,7 +81,7 @@ const vehicleHotspotConfig: VehicleHotspotConfig = {
       id: "speed-governor",
       name: "Speed Limiting Devices",
       slug: "speed-limiting-device",
-      image: "/images/verticalb2c/frame-7113.png",
+      image: "/images/products/speed-limiting-device.png",
       truckAnchor: { x: 46, y: 74 },
       position: { x: 38, y: 96 },
       lineStyle: "solid",

@@ -279,7 +279,7 @@ export const PRODUCTS: ProductType[] = [
     id: "speed-limiter",
     name: "Speed Limiter",
     slug: "speed-limiting-device",
-    image: "/images/verticalb2c/frame-7113.png",
+    image: "/images/products/speed-limiting-device.png",
     iconName: "shield",
     desc: "Electronic throttle speed governor restricting peak velocities to comply with government limits.",
     compatibility: ["truck", "bus", "mining-truck", "construction-vehicle", "industrial-vehicle"],
