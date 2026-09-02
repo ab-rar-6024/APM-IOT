@@ -79,7 +79,7 @@ export const productCategories: ProductCategory[] = [
 // Sourced from the closest related real product shot on apmgroups.in where one exists;
 // products with no reasonable real-photo match are omitted and fall back to an icon tile.
 export const placeholderProductImages: Record<string, string> = {
-  "Rover AI Dash Cam": "/images/verticalb2c/frame-7115.png",
+  "Rover AI Dash Cam": "/images/products/rover-ai-dash-cam.png",
   "Mobile DVR": "/images/verticalb2c/frame-7115.png",
   "4 Channel Recording Display Set": "/images/verticalb2c/frame-7115.png",
   "7'' Smart Recording Monitor": "/images/verticalb2c/frame-7115.png",

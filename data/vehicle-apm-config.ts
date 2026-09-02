@@ -173,8 +173,8 @@ export const PRODUCTS: ProductType[] = [
   {
     id: "ai-camera",
     name: "AI Camera System",
-    slug: "rover-view",
-    image: "/images/verticals/frame-7123.png",
+    slug: "rover-ai-dash-cam",
+    image: "/images/products/rover-ai-dash-cam.png",
     iconName: "tv",
     desc: "AI dashcam with built-in neural unit analyzing driver attentiveness, fatigue, and lane alignment.",
     compatibility: ["truck", "bus", "taxi", "mining-truck", "construction-vehicle", "passenger-vehicle", "industrial-vehicle"],
