@@ -135,20 +135,10 @@ export default function VehicleHeroSelector() {
 
   return (
     <div>
-      {/* Top Hero Header Frame with Looping Background Video */}
+      {/* Top Hero Header Frame */}
       <section className="relative bg-slate-950 pt-10 pb-16 lg:pt-14 lg:pb-20 px-6 lg:px-8 overflow-hidden">
-        {/* Looping Background Video — Confined strictly to this top hero frame */}
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          preload="auto"
-          className="absolute inset-0 w-full h-full object-cover pointer-events-none opacity-80 brightness-[1.12] contrast-[1.05] scale-[1.02]"
-          src="/videos/vehicle-background.mp4"
-        />
-        {/* Lightened gradient overlay for high video visibility and vibrant contrast */}
-        <div className="absolute inset-0 bg-gradient-to-b from-navy/50 via-navy/30 to-slate-950/70 pointer-events-none" />
+        {/* Static gradient backdrop (previously a looping background video) */}
+        <div className="absolute inset-0 bg-gradient-to-b from-navy via-navy/80 to-slate-950 pointer-events-none" />
 
         <div className="relative z-10 max-w-7xl mx-auto">
           <div className="mb-4">
