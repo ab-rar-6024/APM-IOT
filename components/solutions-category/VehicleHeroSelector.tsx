@@ -291,7 +291,7 @@ function VehicleDetailPanel({
         <p className="text-sm text-slate-400 mb-5">
           How reliable your fleet is before vs. after each feature. Click a row to see its full product panel below.
         </p>
-        <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white">
+        <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white" data-lenis-prevent-touch>
           <table className="w-full min-w-[980px] text-base border-collapse">
             <thead>
               <tr className="bg-slate-50 border-b border-slate-200">
