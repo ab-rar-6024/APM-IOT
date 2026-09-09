@@ -279,7 +279,7 @@ function VehicleDetailPanel({
           )}
         </div>
         <p className="text-sm text-slate-400 mb-5">
-          How reliable your fleet is before vs. after each feature. Click a row to see its full product panel below.
+          How reliable your fleet is before vs. after each feature. Click a product name to see how it works.
         </p>
         {/* Mobile: stacked cards — the table below needs horizontal scroll room
             no phone has, so the same data renders as a vertical list instead. */}
@@ -297,12 +297,16 @@ function VehicleDetailPanel({
                   isActiveProduct ? "border-primary bg-primary/5" : "border-slate-200 bg-white hover:bg-slate-50"
                 }`}
               >
-                <div className="flex items-center gap-3 mb-3">
+                <div className="flex items-center gap-3 mb-1">
                   <span className="shrink-0 w-11 h-11 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
                     <ProductIcon name={product.iconName} className="w-5 h-5" />
                   </span>
                   <span className="font-bold text-navy text-base leading-tight">{product.name}</span>
                 </div>
+                <span className="inline-flex items-center gap-1 text-xs font-bold text-primary mb-3">
+                  {isActiveProduct ? "Viewing how it works" : "Tap to see how it works"}
+                  <ArrowRight className="w-3 h-3" />
+                </span>
                 <p className="text-slate-500 text-sm leading-snug mb-2">{product.benefit}</p>
                 <p className="inline-flex items-start gap-2 text-slate-500 text-sm leading-snug mb-3">
                   <ShieldCheck className="w-4 h-4 shrink-0 text-primary mt-0.5" />
@@ -369,7 +373,13 @@ function VehicleDetailPanel({
                         <span className="shrink-0 w-11 h-11 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
                           <ProductIcon name={product.iconName} className="w-5 h-5" />
                         </span>
-                        <span className="font-bold text-navy text-base leading-tight">{product.name}</span>
+                        <div>
+                          <span className="font-bold text-navy text-base leading-tight block">{product.name}</span>
+                          <span className="inline-flex items-center gap-1 text-xs font-bold text-primary mt-0.5">
+                            {isActiveProduct ? "Viewing how it works" : "Click to see how it works"}
+                            <ArrowRight className="w-3 h-3" />
+                          </span>
+                        </div>
                       </div>
                     </td>
                     <td className="px-6 py-5 align-top text-slate-500 text-sm leading-snug max-w-[200px]">
