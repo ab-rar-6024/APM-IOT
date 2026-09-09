@@ -89,7 +89,7 @@ export default function IndustriesSection() {
   const doubledIndustries = [...industriesData, ...industriesData];
 
   return (
-    <section id="industries" className="py-24 px-6 lg:px-8 bg-slate-50/50 relative overflow-hidden">
+    <section id="industries" className="py-12 md:py-24 px-6 lg:px-8 bg-slate-50/50 relative overflow-hidden">
       {/* CSS for the buttery smooth marquee animation */}
       <style dangerouslySetInnerHTML={{ __html: `
         @keyframes smooth-marquee {
@@ -119,7 +119,7 @@ export default function IndustriesSection() {
         <div
           ref={headerRef}
           style={{ transitionDuration: "700ms", transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)" }}
-          className={`text-center mb-12 max-w-7xl mx-auto transition-all ${
+          className={`text-center mb-6 md:mb-12 max-w-7xl mx-auto transition-all ${
             headerVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-12"
           }`}
         >

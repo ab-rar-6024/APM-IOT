@@ -5,9 +5,9 @@ import Link from "next/link";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="landing-snap-section bg-white py-24 px-6 lg:px-8">
+    <section id="about" className="landing-snap-section bg-white py-12 md:py-24 px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-center">
           {/* Left Column: Text & CTAs */}
           <div className="lg:col-span-6">
             <div className="w-14 h-14 rounded-xl bg-navy flex items-center justify-center mb-8">

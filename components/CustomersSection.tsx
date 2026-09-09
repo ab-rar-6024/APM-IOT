@@ -93,7 +93,7 @@ export default function CustomersSection() {
   }, [activeSlide]);
 
   return (
-    <section id="customers" className="landing-snap-section py-24 px-6 lg:px-8 bg-white relative overflow-hidden">
+    <section id="customers" className="landing-snap-section py-12 md:py-24 px-6 lg:px-8 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto">
         {/* Title */}
         <div className="text-center mb-6">
@@ -106,7 +106,7 @@ export default function CustomersSection() {
         </div>
 
         {/* Header row with pagination dots */}
-        <div className="flex items-center justify-between mb-10 mt-14">
+        <div className="flex items-center justify-between mb-6 mt-6 md:mb-10 md:mt-14">
           <h4 className="text-xl md:text-2xl font-black text-navy">What our customers are saying</h4>
           <div className="flex gap-2">
             {slides.map((_, i) => (

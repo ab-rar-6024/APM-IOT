@@ -91,7 +91,7 @@ export default function WhyChooseSection() {
   const { ref: imageRef, visible: imageVisible } = useScrollReveal<HTMLDivElement>();
 
   return (
-    <section id="why-choose" className="landing-snap-section py-24 px-6 lg:px-8 bg-slate-50 relative overflow-hidden">
+    <section id="why-choose" className="landing-snap-section py-12 md:py-24 px-6 lg:px-8 bg-slate-50 relative overflow-hidden">
       {/* Decorative backdrop */}
       <div className="absolute inset-0 bg-[radial-gradient(#2F8FEF_1px,transparent_1.5px)] bg-[size:24px_24px] opacity-[0.03]" />
 
@@ -100,7 +100,7 @@ export default function WhyChooseSection() {
         <div
           ref={headerRef}
           style={{ transitionDuration: "700ms", transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)" }}
-          className={`text-center mb-16 transition-all ${
+          className={`text-center mb-8 md:mb-16 transition-all ${
             headerVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-3"
           }`}
         >
@@ -112,7 +112,7 @@ export default function WhyChooseSection() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-12 gap-8 lg:gap-16 items-center">
           {/* Image collage, shared across all four pillars instead of a per-item icon */}
           <div
             ref={imageRef}

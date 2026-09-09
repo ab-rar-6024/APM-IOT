@@ -176,6 +176,33 @@ export default function ManufacturingSection() {
 
           {/* RIGHT SIDE: The Focus Track */}
           <div className="md:col-span-7 relative z-10 pb-[20vh]">
+            {/* Mobile-only photo backdrop — since the side-by-side sticky
+                panel above is desktop-only, use the sticky + negative
+                bottom-margin trick so the crossfading photo sits pinned
+                behind the stacked step cards as they scroll over it. */}
+            <div className="md:hidden sticky top-0 h-screen w-full overflow-hidden -mb-[100vh] pointer-events-none">
+              <AnimatePresence>
+                <motion.div
+                  key={STEPS[activeIndex].n}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.7, ease: "easeInOut" }}
+                  className="absolute inset-0"
+                >
+                  <Image
+                    src={STEPS[activeIndex].image}
+                    alt={STEPS[activeIndex].title}
+                    fill
+                    sizes="100vw"
+                    className="object-cover"
+                    priority={activeIndex === 0}
+                  />
+                  <div className="absolute inset-0 bg-white/40" />
+                </motion.div>
+              </AnimatePresence>
+            </div>
+
             <div className="hidden md:block h-[30vh]" />
             <div className="flex flex-col">
               {STEPS.map((step) => (

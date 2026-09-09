@@ -35,7 +35,7 @@ export default function TrustedClientsSection() {
   const doubledClients = [...clientsData, ...clientsData];
 
   return (
-    <section className="py-20 bg-white relative overflow-hidden border-t border-slate-100">
+    <section className="py-10 md:py-20 bg-white relative overflow-hidden border-t border-slate-100">
       <style
         dangerouslySetInnerHTML={{
           __html: `
@@ -53,7 +53,7 @@ export default function TrustedClientsSection() {
         }}
       />
 
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center mb-12">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center mb-6 md:mb-12">
         <h3 className="accent-bar accent-bar-center text-3xl md:text-4xl font-black text-navy uppercase tracking-tight">
           Trusted by Clients Across Industries
         </h3>

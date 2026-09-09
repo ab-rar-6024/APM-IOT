@@ -24,6 +24,28 @@ body {
   font-family: 'Inter', system-ui, sans-serif;
 }
 
+/* Page scrollbar in the site's primary blue */
+html {
+  scrollbar-color: #2F8FEF #F5F7FA;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F7FA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2F8FEF;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0F4C81;
+}
+
 /* Heading underline accent bar */
 .accent-bar {
   position: relative;

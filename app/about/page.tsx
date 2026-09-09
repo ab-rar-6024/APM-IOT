@@ -96,7 +96,7 @@ function RoadmapCard({
     <div
       ref={cardRef}
       style={{ transitionDuration: "800ms", transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)" }}
-      className={`grid grid-cols-1 md:grid-cols-12 gap-8 items-center relative py-12 md:py-16 transition-all transform ${
+      className={`grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8 items-center relative py-6 md:py-16 transition-all transform ${
         isVisible ? "opacity-100 translate-y-0 scale-100" : "opacity-0 translate-y-16 scale-[0.97]"
       }`}
     >
@@ -290,7 +290,7 @@ export default function AboutPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Premium Hero Section */}
-      <section className="relative w-full aspect-[21/9] min-h-[300px] md:min-h-[420px] bg-slate-950 flex items-center overflow-hidden border-b border-slate-100">
+      <section className="relative w-full aspect-[21/9] min-h-[130px] md:min-h-[320px] bg-slate-950 flex items-center overflow-hidden border-b border-slate-100">
         <Image
           src="/images/about-hero-landscape.png"
           alt="APM - Engineering the Future of Innovation"
@@ -301,8 +301,8 @@ export default function AboutPage() {
       </section>
 
       {/* 1. About Us Text & Image Split Section */}
-      <section id="about-detail" className="py-24 px-6 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+      <section id="about-detail" className="py-12 md:py-24 px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-8 md:gap-16 items-center">
           <div className="space-y-6">
             <h2 className="accent-bar text-3xl md:text-4xl font-black text-navy uppercase">
               About Us
@@ -333,11 +333,11 @@ export default function AboutPage() {
       </section>
 
       {/* 2. Vision & Mission Section */}
-      <section className="py-24 px-6 lg:px-8 bg-slate-50 relative overflow-hidden">
+      <section className="py-12 md:py-24 px-6 lg:px-8 bg-slate-50 relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(#2F8FEF_1px,transparent_1.5px)] bg-[size:24px_24px] opacity-[0.02]" />
 
         <div className="relative max-w-7xl mx-auto">
-          <div className="text-center mb-16">
+          <div className="text-center mb-8 md:mb-16">
             <h3 className="accent-bar accent-bar-center text-3xl font-black text-navy uppercase">
               What Drives Us
             </h3>
@@ -378,9 +378,9 @@ export default function AboutPage() {
       </section>
 
       {/* 3. Our Evolution Section (Scroll-Reveal Road Map with Dynamic Blue Progress Line) */}
-      <section id="evolution" className="py-24 px-6 lg:px-8 bg-slate-50 relative overflow-hidden">
+      <section id="evolution" className="py-12 md:py-24 px-6 lg:px-8 bg-slate-50 relative overflow-hidden">
         <div className="max-w-7xl mx-auto relative">
-          <div className="text-center mb-16">
+          <div className="text-center mb-8 md:mb-16">
             <h3 className="accent-bar accent-bar-center text-3xl font-black text-navy uppercase">
               Our Evolution
             </h3>
@@ -390,7 +390,7 @@ export default function AboutPage() {
           </div>
 
           {/* Road Map Container */}
-          <div ref={roadmapContainerRef} className="relative mt-20">
+          <div ref={roadmapContainerRef} className="relative mt-8 md:mt-20">
             {/* Dashed vertical center line (Gray base track) */}
             <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-1 bg-slate-200 z-0 hidden md:block" />
 
@@ -421,8 +421,8 @@ export default function AboutPage() {
       <TrustedClientsSection />
 
       {/* 5. Green Safety for Sustainability Section */}
-      <section className="py-24 px-6 lg:px-8 bg-white border-t border-slate-100">
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-12 gap-16 items-center">
+      <section className="py-12 md:py-24 px-6 lg:px-8 bg-white border-t border-slate-100">
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-12 gap-8 md:gap-16 items-center">
           <div className="lg:col-span-7 space-y-6">
             <h3 className="accent-bar text-3xl font-black text-navy uppercase">
               Green Safety for Sustainability

@@ -265,7 +265,7 @@ export default function CapabilitiesSection() {
   }, [lineVisible]);
 
   return (
-    <section className="landing-snap-section py-24 px-6 lg:px-8 bg-slate-50 relative overflow-hidden">
+    <section className="landing-snap-section py-12 md:py-24 px-6 lg:px-8 bg-slate-50 relative overflow-hidden">
       {/* Decorative background grid, slowly drifting */}
       <div className="absolute inset-0 bg-[radial-gradient(#2F8FEF_1px,transparent_1.5px)] bg-[size:32px_32px] opacity-[0.03] animate-grid-drift" />
 
@@ -277,7 +277,7 @@ export default function CapabilitiesSection() {
             transitionDuration: "800ms",
             transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)",
           }}
-          className={`text-center mb-20 transition-all ${
+          className={`text-center mb-10 md:mb-20 transition-all ${
             headerVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
