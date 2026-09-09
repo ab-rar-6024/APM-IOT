@@ -281,7 +281,49 @@ function VehicleDetailPanel({
         <p className="text-sm text-slate-400 mb-5">
           How reliable your fleet is before vs. after each feature. Click a row to see its full product panel below.
         </p>
-        <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white" data-lenis-prevent-touch>
+        {/* Mobile: stacked cards — the table below needs horizontal scroll room
+            no phone has, so the same data renders as a vertical list instead. */}
+        <div className="md:hidden space-y-3">
+          {highlightProducts.map((product) => {
+            const reliability = getReliability(product);
+            const isActiveProduct = selectedProductId === product.id;
+            return (
+              <button
+                key={product.id}
+                type="button"
+                onClick={() => setSelectedProductId(product.id)}
+                aria-label={`View ${product.name} details`}
+                className={`w-full text-left rounded-2xl border p-4 transition-colors ${
+                  isActiveProduct ? "border-primary bg-primary/5" : "border-slate-200 bg-white hover:bg-slate-50"
+                }`}
+              >
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="shrink-0 w-11 h-11 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
+                    <ProductIcon name={product.iconName} className="w-5 h-5" />
+                  </span>
+                  <span className="font-bold text-navy text-base leading-tight">{product.name}</span>
+                </div>
+                <p className="text-slate-500 text-sm leading-snug mb-2">{product.benefit}</p>
+                <p className="inline-flex items-start gap-2 text-slate-500 text-sm leading-snug mb-3">
+                  <ShieldCheck className="w-4 h-4 shrink-0 text-primary mt-0.5" />
+                  <span>{product.compliance}</span>
+                </p>
+                <div className="space-y-2 pt-3 border-t border-slate-100">
+                  <p className="inline-flex items-start gap-2 text-rose-500 text-sm leading-snug">
+                    <XCircle className="w-4 h-4 shrink-0 mt-0.5" />
+                    <span>{reliability.before}</span>
+                  </p>
+                  <p className="inline-flex items-start gap-2 text-emerald-600 text-sm leading-snug">
+                    <CheckCircle2 className="w-4 h-4 shrink-0 mt-0.5" />
+                    <span>{reliability.after}</span>
+                  </p>
+                </div>
+              </button>
+            );
+          })}
+        </div>
+
+        <div className="hidden md:block overflow-x-auto rounded-2xl border border-slate-200 bg-white" data-lenis-prevent-touch>
           <table className="w-full min-w-[980px] text-base border-collapse">
             <thead>
               <tr className="bg-slate-50 border-b border-slate-200">
