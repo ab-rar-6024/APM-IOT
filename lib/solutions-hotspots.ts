@@ -168,7 +168,7 @@ export const categoryHotspotsList: CategoryHotspots[] = [
   },
   {
     categorySlug: "workplace-safety",
-    baseImage: "/images/solutions/c-realistic.png",
+    baseImage: "/images/solutions/workplace-safety-realistic.png",
     hotspots: [
       {
         id: "safety-vest",

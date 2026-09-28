@@ -2471,7 +2471,7 @@ export const products: Product[] = [
     slug: "advanced-fuel-management-system",
     name: "Advanced Fuel Management System",
     categories: ["fleet-management"],
-    image: "/images/verticals/frame-7120.png",
+    image: "/images/products/advanced-fuel-management-system.png",
     shortDesc: "Real-time fuel level, consumption, and theft monitoring for fleet vehicles.",
     overview:
       "The Advanced Fuel Management System is an intelligent vehicle fuel monitoring solution designed to track fuel levels, consumption, and usage patterns in real time. It helps fleet operators identify fuel wastage, monitor refuelling activities, reduce operational costs, and improve overall fleet efficiency.",
