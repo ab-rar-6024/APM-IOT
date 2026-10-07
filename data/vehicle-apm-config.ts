@@ -419,7 +419,7 @@ export const PRODUCTS: ProductType[] = [
     id: "reverse-parking",
     name: "Reverse Sonar",
     slug: "reverse-parking-system",
-    image: "/images/verticalb2c/frame-7117.png",
+    image: "/images/products/reverse-parking-system.png",
     iconName: "shield",
     desc: "Rear ultrasonic proximity sensors triggering warning audio to avoid loading bay collisions.",
     compatibility: ["truck", "bus", "taxi", "mining-truck", "construction-vehicle", "passenger-vehicle", "industrial-vehicle"],

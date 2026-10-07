@@ -129,7 +129,7 @@ const vehicleHotspotConfig: VehicleHotspotConfig = {
       id: "reverse-parking",
       name: "Reverse Parking System",
       slug: "reverse-parking-system",
-      image: "/images/verticalb2c/frame-7117.png",
+      image: "/images/products/reverse-parking-system.png",
       truckAnchor: { x: 86, y: 76 },
       position: { x: 90, y: 94 },
       lineStyle: "solid",
